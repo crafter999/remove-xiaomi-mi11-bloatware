@@ -1,4 +1,5 @@
 # Main Bloat
+```
 pm uninstall --user 0 com.facebook.system
 pm uninstall --user 0 com.facebook.services
 pm uninstall --user 0 com.facebook.appmanager
@@ -23,13 +24,17 @@ pm uninstall --user 0 com.android.providers.partnerbookmarks
 pm uninstall --user 0 com.google.android.googlequicksearchbox
 pm uninstall --user 0 com.miui.miwallpaper
 pm uninstall --user 0 com.miui.hybrid
-
+```
 
 # MI Cloud
+```
 pm uninstall --user 0 com.miui.cloudbackup
 pm uninstall --user 0 com.miui.cloudservice
 pm uninstall --user 0 com.miui.cloudservice.sysbase
 pm uninstall --user 0 com.miui.micloudsync 
+```
 
 # Others
+```
 com.android.internal.os.IDropBoxManagerService
+```
