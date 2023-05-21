@@ -1,4 +1,6 @@
-# Main Bloat
+# Remove Bloatware from Xiaomi Mi 11
+
+### Main Bloat
 ```
 pm uninstall --user 0 com.facebook.system
 pm uninstall --user 0 com.facebook.services
@@ -26,7 +28,7 @@ pm uninstall --user 0 com.miui.miwallpaper
 pm uninstall --user 0 com.miui.hybrid
 ```
 
-# MI Cloud
+### MI Cloud
 ```
 pm uninstall --user 0 com.miui.cloudbackup
 pm uninstall --user 0 com.miui.cloudservice
@@ -34,7 +36,7 @@ pm uninstall --user 0 com.miui.cloudservice.sysbase
 pm uninstall --user 0 com.miui.micloudsync 
 ```
 
-# Others
+### Others
 ```
 com.android.internal.os.IDropBoxManagerService
 ```
